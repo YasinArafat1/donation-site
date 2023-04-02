@@ -42,6 +42,9 @@
     margin-left: 45%;
     color: white;
     font-size: bold;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px;
 
 }
 
@@ -112,6 +115,8 @@
     background-color: rgb(233, 103, 56);
     padding: 10px;
     border-radius: 10px;
+    display: inline-block;
+    margin-top: 35px;
 
 }
 
@@ -180,25 +185,35 @@
 .giving-donation-1 h1 {
     font-size: 60px;
     float: left;
+    margin-left: 100px;
 }
 
 .giving-donation-1 p {
     font-size: 1rem;
+    display: block;
+    margin-top: 50px;
+    margin-left: 105px;
+
 }
 
 .giving-donation-1 img {
     width: 700px;
     height: 500px;
+    margin-right: 100px;
 
 }
 
-.giving-donation button {
+.giving-donation a {
     background-color: rgb(233, 103, 56);
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
     border: none;
     color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
 .another-donation-pic {
@@ -212,25 +227,33 @@
     width: 700px;
     height: 500px;
     float: left;
+    margin-left: 100px;
+
 }
 
 .half-width-donation h1 {
     font-size: 60px;
     float: right;
+    margin-left: 100px;
 
 }
 
 .half-width-donation p {
     font-size: 1rem;
+    margin-left: 105px;
 }
 
-.another-donation-pic button {
+.another-donation-pic a {
     background-color: rgb(233, 103, 56);
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
     border: none;
     color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
 
 }
 
@@ -254,5 +277,19 @@
     color: whitesmoke;
     font-weight: bolder;
     text-align: center;
+
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color: orangered;
+
+}
+
+span {
+    color: rgb(246, 239, 239);
 
 }
